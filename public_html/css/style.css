@@ -1,15 +1,20 @@
 html, body {
-  background-color: #D2B48C;
+  background-color: #3C403E;
   height: 100%;
   width: 100%;
   margin: 0 auto;
   font-family: Arial;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .wrapper {
+  background-color: #807669;
   margin: auto;
   width: 900px;
+}
+
+.container {
+  padding: 15px;
 }
 
 #header {
@@ -33,31 +38,40 @@ html, body {
   font-size: 18px;
   font-style: italic;
   text-align: center;
-  
 }
 
 .slogan {
   color: #008080;
   font-weight: bold;
-  -webkit-text-stroke: 1px black;
+  -webkit-text-stroke: 2px #1E1E22;
   font-size: 70px;
   font-style: normal;
   text-align: center;
 }
 
 h2 {
-  color: #008080;
+  color: #1E1E22;
   font-style: italic;
-  -webkit-text-stroke: 1px black;
-}
-
-.hours {
-  font-size: 18px;
+  /*-webkit-text-stroke: 1px black;*/
 }
 
 .section {
   display: flex;
   justify-content: space-between;
+}
+
+#contact {
+  margin-bottom: 10px;
+  text-align: center;
+  line-height: 1.7em;
+}
+
+address {
+  line-height: normal;
+}
+
+#hours {
+  margin-top: 20px;
 }
 
 #map {
@@ -69,7 +83,7 @@ h2 {
   color: white;
   font-size: 13px;
   border: 5px solid white;
-  background-color: green;
+  background-color: #101f10;
   height: auto;
   padding: 10px;
   margin: 5px;
@@ -91,8 +105,4 @@ h2 {
 
 .small-box ul li {
   list-style-position: inside;
-}
-
-span + span {
-  ;
 }
